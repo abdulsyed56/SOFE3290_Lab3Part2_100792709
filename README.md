@@ -37,5 +37,5 @@ The CI/CD pipeline was designed using Jenkins pipelines with a Jenkinsfile store
 
 ### Video Links  
 ---
-**Design Video:** https://www.youtube.com/watch?v=jcdhfCI7UgA
+**Design Video:** https://www.youtube.com/watch?v=jcdhfCI7UgA  
 **CI/CD Video:** https://www.youtube.com/watch?v=Nw74bH42gm0
