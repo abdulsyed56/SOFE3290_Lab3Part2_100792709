@@ -34,3 +34,8 @@ The CI/CD pipeline was designed using Jenkins pipelines with a Jenkinsfile store
 3. **Containerization:** After test success, the web-app is containerized using Google Cloud Build. The pipeline builds a Docker image with a web-app and pushes to the container registry.  
 4. **Deployment:** The pipeline then deploys the containerized application to the Kubernetes cluster using the command: kubectl create deployment binarycalculator-deployment  
 5. **Service Exposure:** A Kubernetes LoadBalancer service is created to expose the application externally. This allows users to access the Binary Calculator through a public IP address. Can check with kubectl get pods or kubectl get svc.  
+
+### Video Links  
+---
+**Design Video:** https://www.youtube.com/watch?v=jcdhfCI7UgA
+**CI/CD Video:** https://www.youtube.com/watch?v=Nw74bH42gm0
