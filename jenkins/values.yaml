@@ -12,11 +12,11 @@ controller:
   resources:
     requests:
       cpu: "50m"
-      memory: "1024Mi"
+      memory: "512Mi"
     limits:
       cpu: "1"
-      memory: "3500Mi"
-  javaOpts: "-Xms3500m -Xmx3500m"
+      memory: "1500Mi"
+  javaOpts: "-Xms512m -Xmx1024m"
   serviceType: LoadBalancer
 agent:
   resources:
